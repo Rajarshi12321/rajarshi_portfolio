@@ -6,7 +6,7 @@
 
 /* Posts */
 
-	.project-section .posts {
+	.article-arrangement .posts {
 		$gutter: (_size(gutter) * 2);
 
 		@include vendor('display', 'flex');
