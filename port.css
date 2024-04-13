@@ -323,7 +323,7 @@ section .title::after{
     margin: 10px 0 7px 0;
 }
 
-.projects .serv-content .button_project{
+.projects .serv-content .button_project {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -336,6 +336,12 @@ section .title::after{
     border-radius: 6px;
     border: 1px solid #6161e7;
     transition: all 0.3s ease;
+}
+
+
+.projects .serv-content .button_project:hover{
+  color: #6161e7;
+  background: none;
 }
 
 /* projects page */
