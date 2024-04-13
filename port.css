@@ -293,12 +293,12 @@ section .title::after{
     transition: all 0.3s ease;
 }
 .projects .serv-content .card img{
-    height: 150px;
-    width: 150px;
-    object-fit: cover;
-    border-radius: 50%;
-    border: 5px solid #6161e7;
-    transition: all 0.3s ease;
+        /* height: 150px; */
+        width: 100%;
+        object-fit: cover;
+        border-radius: 8%;
+        border: 5px solid #6161e7;
+        transition: all 0.3s ease;
 }
 .projects .serv-content .card:hover{
     background: #6161e7;
