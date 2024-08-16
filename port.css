@@ -42,7 +42,7 @@ section{
     padding: 0 80px;
     margin: auto;
 }
-.about, .projects, .skills, .teams, .contact, footer{
+.about, .projects, .work_exp, .skills, .teams, .contact, footer{
     font-family: 'Poppins', sans-serif;
 }
 .about .about-content,
@@ -283,6 +283,7 @@ section .title::after{
     background: #111;
     content: "what i did";
 } */
+
 .projects .serv-content .card{
     width: calc(33% - 20px);
     background: #222;
@@ -354,6 +355,150 @@ section .title::after{
     cursor: pointer;
     transition: all 0.3s ease;
 }
+
+
+/* work_exp */
+
+.work_exp .work_exp-content{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* work_exp section styling */
+.work_exp, .teams{
+  color:#fff;
+  background: #111;
+}
+.work_exp .title::before,
+.teams .title::before{
+  background: #fff;
+}
+
+.work_exp .serv-content .card{
+  width: calc(80% - 20px);
+  background: #222;
+  text-align: center;
+  border-radius: 6px;
+  padding: 50px 25px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.work_exp .serv-content .card img{
+      /* height: 150px; */
+      width: 50%;
+      object-fit: cover;
+      border-radius: 8%;
+      border: 5px solid #6161e7;
+      transition: all 0.3s ease;
+}
+.work_exp .serv-content .card:hover{
+  background: #6161e7;
+}
+.work_exp .serv-content .card .box{
+  transition: all 0.3s ease;
+}
+.work_exp .serv-content .card:hover .box{
+  transform: scale(1.05);
+}
+.work_exp .serv-content .card i{
+  font-size: 50px;
+  color: #6161e7;
+  transition: color 0.3s ease;
+}
+.work_exp .serv-content .card:hover i{
+  color: #fff;
+}
+.work_exp .serv-content .card .text{
+  font-size: 25px;
+  font-weight: 500;
+  margin: 10px 0 7px 0;
+}
+
+.work_exp .serv-content .button_project {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  background: #6161e7;
+  color: #fff;
+  font-size: 10px;
+  font-weight: 500;
+  padding: 23px 41px;
+  margin-top: 54px;
+  border-radius: 6px;
+  border: 1px solid #6161e7;
+  transition: all 0.3s ease;
+}
+
+
+.work_exp .serv-content .button_project:hover{
+color: #6161e7;
+background: none;
+}
+
+.work_exp .box-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 1rem 0;
+  padding-left: 3rem;
+}
+
+.work_exp .box-container .box {
+  /* width: 27rem; */
+  margin: 0rem 3.5rem;
+  padding-left: 4rem;
+  border-left: .2rem solid #fff;
+  position: relative;
+}
+
+.work_exp .box-container .box span {
+  font-size: 22px;
+  color: #fff;
+  background: #222;
+  border-radius: 5rem;
+  padding: .5rem 2.5rem;
+}
+
+.work_exp .box-container .box h3 {
+  font-size: 22px;
+  color: #fff;
+  padding-top: 1.5rem;
+}
+
+.work_exp .box-container .box h2 {
+  font-size: 20px;
+}
+
+.work_exp .box-container .box p {
+  font-size: 20px;
+  color: #eee;
+  padding: 15px 0;
+}
+
+
+.work_exp .box-container .box ul{
+  font-size: 18px;
+  padding: 15px 0;
+}
+
+.work_exp .box-container .box i {
+  position: absolute;
+  top: -1.5rem;
+  left: -2.5rem;
+  height: 5rem;
+  width: 5rem;
+  border-radius: 50%;
+  line-height: 5rem;
+  text-align: center;
+  font-size: 2rem;
+  color: #fff;
+  background: #1E90FF;
+}
+
+
 
 /* Posts */
 .article-arrangement .posts {
